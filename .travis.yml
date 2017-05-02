@@ -1,4 +1,4 @@
 language: dart
 dart:
   - dev
-script: travis.sh
+script: .coveralls.yml
