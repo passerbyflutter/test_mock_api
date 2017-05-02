@@ -1,31 +1,28 @@
 #!/bin/bash
 
-# Copyright (c) 2014, the Dart project authors.  Please see the AUTHORS file
-# for details. All rights reserved. Use of this source code is governed by a
-# BSD-style license that can be found in the LICENSE file.
-
 # Fast fail the script on failures.
 set -e
 
-# Verify that the libraries are error free.
-dartanalyzer --fatal-warnings \
-  example/example.dart \
-  example/ga.dart \
-  lib/usage.dart \
-  test/dashboard_api_test.dart
-
-# Run the tests.
-dart -c test/dashboard_api_test.dart
-
-# Measure the size of the compiled JS, for the dart:html version of the library.
-dart tool/grind.dart build
+dart --checked test/dashboard_api_test.dart
 
 # Install dart_coveralls; gather and send coverage data.
-if [ "$REPO_TOKEN" ]; then
-  pub global activate dart_coveralls
-  pub global run dart_coveralls report \
-    --token $REPO_TOKEN \
+if [ "$COVERALLS_TOKEN" ] && [ "$TRAVIS_DART_VERSION" = "stable" ]; then
+  echo "Running coverage..."
+  dart bin/dashboard_api.dart report \
     --retry 2 \
     --exclude-test-files \
+    --throw-on-error \
+    --throw-on-connectivity-error \
+    --debug \
     test/dashboard_api_test.dart
+  echo "Coverage complete."
+else
+  if [ -z ${COVERALLS_TOKEN+x} ]; then echo "COVERALLS_TOKEN is unset"; fi
+  if [ -z ${TRAVIS_DART_VERSION+x} ]; then
+    echo "TRAVIS_DART_VERSION is unset";
+  else
+    echo "TRAVIS_DART_VERSION is $TRAVIS_DART_VERSION";
+  fi
+
+  echo "Skipping coverage for this configuration."
 fi
