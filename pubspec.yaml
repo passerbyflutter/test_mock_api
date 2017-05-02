@@ -1,0 +1,15 @@
+name: cf_mock_api
+description: A mock RESTful API server for CloudFusion.
+version: 0.0.2
+
+environment:
+  sdk: '>=1.20.1 <2.0.0'
+
+dependencies:
+  dart_coveralls: "^0.5.0"
+  test: any
+  args: ^0.13.7
+  shelf: ^0.6.0
+  rpc: any
+  shelf_rpc: any
+  shelf_route: any
