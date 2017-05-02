@@ -3,4 +3,3 @@ dart: dev
 sudo: false
 dart_task:
 - test: --platform vm
-script: ./tool/travis.sh
