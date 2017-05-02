@@ -1,45 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13b4e7ee-1e23-4c70-910e-2635d2eadc49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/mock-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.packages" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.pub/bin/dart_coveralls/dart_coveralls.dart.snapshot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.pub/bin/rpc/generate.dart.snapshot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.pub/bin/sdk-version" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.pub/bin/test/test.dart.snapshot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.pub/deps/debug/gcloud/lib/common.dart" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.pub/deps/debug/gcloud/lib/datastore.dart" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.pub/deps/debug/gcloud/lib/db.dart" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.pub/deps/debug/gcloud/lib/db/metamodel.dart" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.pub/deps/debug/gcloud/lib/http.dart" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.pub/deps/debug/gcloud/lib/pubsub.dart" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.pub/deps/debug/gcloud/lib/service_scope.dart" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.pub/deps/debug/gcloud/lib/src/datastore_impl.dart" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.pub/deps/debug/gcloud/lib/src/db/annotations.dart" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.pub/deps/debug/gcloud/lib/src/db/db.dart" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.pub/deps/debug/gcloud/lib/src/db/model_db.dart" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.pub/deps/debug/gcloud/lib/src/db/model_db_impl.dart" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.pub/deps/debug/gcloud/lib/src/db/models.dart" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.pub/deps/debug/gcloud/lib/src/pubsub_impl.dart" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.pub/deps/debug/gcloud/lib/src/storage_impl.dart" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.pub/deps/debug/gcloud/lib/storage.dart" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis_options.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/server.dart" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/dashboard_api.dart" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pubspec.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pubspec.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dashboard_api_test.dart" />
-    </list>
+    <list default="true" id="13b4e7ee-1e23-4c70-910e-2635d2eadc49" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,18 +18,28 @@
       <file leaf-file-name="pubspec.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pubspec.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            <state relative-caret-position="225">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard_api.dart" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dashboard_api.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/dashboard_api.dart">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -121,6 +93,7 @@
         <option value="$PROJECT_DIR$/lib/dashboard_api.dart" />
         <option value="$PROJECT_DIR$/bin/server.dart" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -494,7 +467,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -504,7 +477,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18070363" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
@@ -563,7 +536,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/image_api.dart" />
     <entry file="file://$PROJECT_DIR$/lib/login_api.dart" />
     <entry file="file://$PROJECT_DIR$/lib/logout_api.dart" />
     <entry file="file://$PROJECT_DIR$/bin/server.dart">
@@ -758,14 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/dashboard_api_test.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -780,6 +744,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding />
         </state>
       </provider>
