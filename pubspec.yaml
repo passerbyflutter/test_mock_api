@@ -6,7 +6,7 @@ environment:
   sdk: '>=1.20.1 <2.0.0'
 
 dependencies:
-  dart_coveralls: "^0.5.0"
+  coverage: "^0.5.0"
   test: any
   args: ^0.13.7
   shelf: ^0.6.0
