@@ -5,11 +5,7 @@ dart_task:
 - test: --platform vm
 script:
   - pub run test
-  - pub global activate coverage
-  - dart --observe=8111 test/dashboard_api_test.dart &
-  - sleep 1
-  - pub global run coverage:collect_coverage --port=8111 -o coverage.json --resume-isolates
-  - pub global run coverage:format_coverage --report-on lib --in coverage.json --out lcov.info --lcov
+  - pub global activate dart_coveralls
 
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - dart_coveralls report --token=lrho1ih0tXTPQZFUDwZ8IRdJ1KDjSRPz0 test/dashboard_api_test.dart
