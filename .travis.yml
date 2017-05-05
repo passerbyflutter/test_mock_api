@@ -8,4 +8,4 @@ script:
   - pub global activate dart_coveralls
 
 after_success:
-  - dart_coveralls report --package-root=lib --token=lrho1ih0tXTPQZFUDwZ8IRdJ1KDjSRPz0 test/dashboard_api_test.dart
+  - dart_coveralls report --token=lrho1ih0tXTPQZFUDwZ8IRdJ1KDjSRPz0 test/dashboard_api_test.dart
