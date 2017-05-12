@@ -12,4 +12,4 @@ script:
   - pub global run coverage:format_coverage --packages=.fake_packages --report-on lib --in coverage.json --out lcov.info --lcov
 
 after_success:
-  - dart_coveralls report --token=lrho1ih0tXTPQZFUDwZ8IRdJ1KDjSRPz0 test/dashboard_api_test.dart
+  - bash <(curl -s https://codecov.io/bash)
