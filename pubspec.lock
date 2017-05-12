@@ -85,12 +85,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.13.5"
-  dart_coveralls:
-    description:
-      name: dart_coveralls
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.5.0"
   discoveryapis_generator:
     description:
       name: discoveryapis_generator
@@ -187,12 +181,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.9.3"
-  mockable_filesystem:
-    description:
-      name: mockable_filesystem
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.0.3"
   option:
     description:
       name: option
